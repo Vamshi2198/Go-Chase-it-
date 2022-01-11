@@ -1,8 +1,10 @@
 # CMake generated Testfile for 
-# Source directory: /home/robond/Desktop/catkin_ws/src
-# Build directory: /home/robond/Desktop/catkin_ws/build
+# Source directory: /home/krishna/Go-Chase-it-/src
+# Build directory: /home/krishna/Go-Chase-it-/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs(gtest)
-subdirs(my_robot)
+subdirs("gtest")
+subdirs("aws-robomaker-bookstore-world")
+subdirs("my_robot")
+subdirs("ball_chaser")

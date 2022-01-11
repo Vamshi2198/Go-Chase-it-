@@ -1,8 +1,8 @@
-# Install script for directory: /home/robond/Desktop/catkin_ws/src
+# Install script for directory: /home/krishna/Go-Chase-it-/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robond/Desktop/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/krishna/Go-Chase-it-/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,7 +32,12 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   
       if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
         file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
@@ -42,82 +47,93 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
       endif()
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robond/Desktop/catkin_ws/install/_setup_util.py")
+   "/home/krishna/Go-Chase-it-/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robond/Desktop/catkin_ws/install" TYPE PROGRAM FILES "/home/robond/Desktop/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/krishna/Go-Chase-it-/install" TYPE PROGRAM FILES "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robond/Desktop/catkin_ws/install/env.sh")
+   "/home/krishna/Go-Chase-it-/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robond/Desktop/catkin_ws/install" TYPE PROGRAM FILES "/home/robond/Desktop/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/krishna/Go-Chase-it-/install" TYPE PROGRAM FILES "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/env.sh")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robond/Desktop/catkin_ws/install/setup.bash")
+   "/home/krishna/Go-Chase-it-/install/setup.bash;/home/krishna/Go-Chase-it-/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robond/Desktop/catkin_ws/install" TYPE FILE FILES "/home/robond/Desktop/catkin_ws/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/krishna/Go-Chase-it-/install" TYPE FILE FILES
+    "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/setup.bash"
+    "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/local_setup.bash"
+    )
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robond/Desktop/catkin_ws/install/setup.sh")
+   "/home/krishna/Go-Chase-it-/install/setup.sh;/home/krishna/Go-Chase-it-/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robond/Desktop/catkin_ws/install" TYPE FILE FILES "/home/robond/Desktop/catkin_ws/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/krishna/Go-Chase-it-/install" TYPE FILE FILES
+    "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/setup.sh"
+    "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/local_setup.sh"
+    )
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robond/Desktop/catkin_ws/install/setup.zsh")
+   "/home/krishna/Go-Chase-it-/install/setup.zsh;/home/krishna/Go-Chase-it-/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robond/Desktop/catkin_ws/install" TYPE FILE FILES "/home/robond/Desktop/catkin_ws/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/krishna/Go-Chase-it-/install" TYPE FILE FILES
+    "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/setup.zsh"
+    "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/local_setup.zsh"
+    )
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/robond/Desktop/catkin_ws/install/.rosinstall")
+   "/home/krishna/Go-Chase-it-/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/robond/Desktop/catkin_ws/install" TYPE FILE FILES "/home/robond/Desktop/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/krishna/Go-Chase-it-/install" TYPE FILE FILES "/home/krishna/Go-Chase-it-/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/robond/Desktop/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/robond/Desktop/catkin_ws/build/my_robot/cmake_install.cmake")
+  include("/home/krishna/Go-Chase-it-/build/gtest/cmake_install.cmake")
+  include("/home/krishna/Go-Chase-it-/build/aws-robomaker-bookstore-world/cmake_install.cmake")
+  include("/home/krishna/Go-Chase-it-/build/my_robot/cmake_install.cmake")
+  include("/home/krishna/Go-Chase-it-/build/ball_chaser/cmake_install.cmake")
 
 endif()
 
@@ -129,5 +145,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robond/Desktop/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/krishna/Go-Chase-it-/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
