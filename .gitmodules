@@ -1,0 +1,3 @@
+[submodule "src/aws-robomaker-bookstore-world"]
+	path = src/aws-robomaker-bookstore-world
+	url = https://github.com/aws-robotics/aws-robomaker-bookstore-world
