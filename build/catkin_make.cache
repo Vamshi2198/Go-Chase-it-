@@ -1,2 +1,0 @@
-aws-robomaker-bookstore-world:ball_chaser:my_robot
--DCATKIN_DEVEL_PREFIX=/home/krishna/Go-Chase-it-/devel -DCMAKE_INSTALL_PREFIX=/home/krishna/Go-Chase-it-/install -G Unix Makefiles
