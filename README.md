@@ -42,6 +42,7 @@
 .Go-Chase-It                                   # Go Chase It Project
 ├── catkin_ws                                  # Catkin workspace
 │   ├── src
+│   │   ├── aws-robomaker-bookstore-world      # folder that contains bookstore world
 │   │   ├── ball_chaser                        # ball_chaser package        
 │   │   │   ├── launch                         # launch folder for launch files
 │   │   │   │   ├── ball_chaser.launch
@@ -52,20 +53,28 @@
 │   │   │   │   ├── DriveToTarget.srv
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
 │   │   │   ├── package.xml                    # package info
+│   │   ├── images 
+│   │   ├── my_ball/my_ball                    # Model files for ball colored ball 
+│   │   │   ├── model.config
+│   │   │   ├── model.sdf
 │   │   ├── my_robot                           # my_robot package        
 │   │   │   ├── launch                         # launch folder for launch files   
 │   │   │   │   ├── robot_description.launch
-│   │   │   │   ├── world.launch
+│   │   │   │   ├── world.launch               # Launches bookstore world
+│   │   │   │   ├── teleop.launch              # To drive the rosbot
 │   │   │   ├── meshes                         # meshes folder for sensors
-│   │   │   │   ├── hokuyo.dae
+│   │   │   │   ├── astra.stl
+│   │   │   │   ├── box.stl
+│   │   │   │   ├── rplidar.stl
+│   │   │   │   ├── upper.stl
+│   │   │   │   ├── wheel.stl
+│   │   │   ├── realsense2_camera              # folder that contains launch files for realsense camera
+│   │   │   ├── realsense2_description         # folder that contains description files for realsense camera
 │   │   │   ├── urdf                           # urdf folder for xarco files
-│   │   │   │   ├── my_robot.gazebo
-│   │   │   │   ├── my_robot.xacro
+│   │   │   │   ├── materials.xacro            #contains material properties used in rosbot
+│   │   │   │   ├── my_robot.xacro             
+│   │   │   │   ├── rosbot.gazebo              #contains plugins to interact with rosbot
 │   │   │   ├── worlds                         # world folder for world files
 │   │   │   │   ├── empty.world
-│   │   │   │   ├── office.world
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
 │   │   │   ├── package.xml                    # package info
-├── my_ball                                    # Model files 
-│   ├── model.config
-│   ├── model.sdf
