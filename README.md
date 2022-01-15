@@ -110,6 +110,7 @@ $ source devel/setup.bash
 ```sh
 $ roslaunch my_robot world.launch
 ```
+#### Note : The world file proivided is empy because it only contains the url of remote repository, for this purpose uou need to clone the aws-bookstore-world and place it inside your src folder.
 #### Launch ball_chaser and process_image nodes in another terminal
 ```sh
 $ cd /home/workspace/catkin_ws/
