@@ -1,5 +1,15 @@
-# Go-Chase-it-
-This project is a part of Udacity's Robotics Software Engineer Nano degree program. It uses gazebo to model a robot and Robot operating system (ROS) to control the robot to follow a white ball
+<h1 align="center">
+  <br>
+ <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.jpg"/>
+  <br>
+  
+<h4 align="center">A mobile robot that chases black colored balls</h4>
+  
+ <p align="center">
+  <a href="https://www.udacity.com/robotics">
+      <img src="https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png">
+  </a>
+</p>
 
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0.
