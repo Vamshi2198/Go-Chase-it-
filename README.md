@@ -1,4 +1,8 @@
-![](src/images/Project_title.jpg)
+<h1 align="center">
+  <br>
+ <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.jpg" width="200" height="400" />
+  <br>
+
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0.
 * ROS Kinetic .
