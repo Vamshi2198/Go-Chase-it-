@@ -1,4 +1,4 @@
-![](images/Project_title.jpg)
+![](src/images/Project_title.jpg)
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0.
 * ROS Kinetic .
