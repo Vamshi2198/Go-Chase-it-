@@ -90,17 +90,18 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 
 ## How To Launch
 
-#### Clone the project in catkin_ws/src/
+#### Clone the project in catkin_ws/src/ and source the environment
 ```sh
 $ cd /home/workspace/catkin_ws/src/
 $ git clone https://github.com/Vamshi2198/Go-Chase-it-
+$ source /opt/ros/(ros-distro)/setup.bash
 ```
 #### Build the `Go-Chase-It` project
 ```sh
 $ cd /home/workspace/catkin_ws/ 
 $ catkin_make
 ```
-#### After building the package, source your environment
+#### After building the package, source your workspace
 ```sh
 $ cd /home/workspace/catkin_ws/
 $ source devel/setup.bash
