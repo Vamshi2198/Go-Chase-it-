@@ -1,13 +1,17 @@
 <h1 align="center">
   <br>
- <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.jpg"/>
+ <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.jpg">
   <br>
+</h1>
   
 <h4 align="center">A mobile robot that chases black colored balls</h4>
   
- <p align="center">
+<p align="center">
   <a href="https://www.udacity.com/robotics">
-      <img src="https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png">
+     <img src="https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png">
+  </a>
+  <a href="https://husarion.com/manuals/rosbot/">
+     <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/aws.png">
   </a>
 </p>
 
