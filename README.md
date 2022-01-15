@@ -35,7 +35,7 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 2. `process_image`:
 * This node reads the robot’s camera image, analyzes it to determine the presence and position of a black ball. If a black ball exists in the image, this node requests a service via a client to drive the robot towards it.  
 
-## Prerequisites/Dependencies  
+## Prerequisites
 * Gazebo >= 7.0.
 * ROS Kinetic .
 * Cmake >= 4.1(mac, linux), 3.81(Windows)
@@ -121,3 +121,11 @@ cd /home/workspace/catkin_ws/
 source devel/setup.bash
 rosrun rqt_image_view rqt_image_view
 ```
+
+## Testing
+Move the ball using the translate mode in gazebo. you should see the ROSbot follow the ball if it is in the region of the camera.
+The code was tested on the following specifications
+- **Processor:** `Intel Core i7-10875H`
+- **Graphics:** `Nvidia GeForce GTX 1650 Ti 4GB GDDR6`
+- **OS:** ` Ubuntu 20.04.3 LTS`
+- **Kernal:** `5.10.60.1-microsoft-standard-WSL2`
