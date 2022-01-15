@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
- <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.jpg" width="200" height="400" />
+ <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.jpg"/>
   <br>
 
 ## Prerequisites/Dependencies  
