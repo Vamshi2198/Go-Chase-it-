@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
- <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project-title.png">
+ <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.png">
   <br>
 </h1>
   
