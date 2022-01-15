@@ -15,6 +15,15 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#directory-structure">Directory Structure</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#testing">Testing</a>
+</p>
+
+
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0.
 * ROS Kinetic .
