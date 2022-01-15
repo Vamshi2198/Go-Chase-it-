@@ -96,6 +96,11 @@ $ cd /home/workspace/catkin_ws/src/
 $ git clone https://github.com/Vamshi2198/Go-Chase-it-
 $ source /opt/ros/(ros-distro)/setup.bash
 ```
+#### Note : The world file proivided is empy because it only contains the url of remote repository, for this purpose you need to clone the aws-bookstore-world and place it inside your src folder. Also, delete the folder named aws-robomaker-bookstore-world manually before cloning.
+```sh
+$ cd /home/workspace/catkin_ws/src/
+$ git clone https://github.com/aws-robotics/aws-robomaker-bookstore-world
+```
 #### Build the `Go-Chase-It` project
 ```sh
 $ cd /home/workspace/catkin_ws/ 
@@ -110,7 +115,7 @@ $ source devel/setup.bash
 ```sh
 $ roslaunch my_robot world.launch
 ```
-#### Note : The world file proivided is empy because it only contains the url of remote repository, for this purpose uou need to clone the aws-bookstore-world and place it inside your src folder.
+
 #### Launch ball_chaser and process_image nodes in another terminal
 ```sh
 $ cd /home/workspace/catkin_ws/
