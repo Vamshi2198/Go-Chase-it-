@@ -86,3 +86,38 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 │   │   │   │   ├── empty.world
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
 │   │   │   ├── package.xml                    # package info
+```
+
+## How To Launch
+
+#### Clone the project in catkin_ws/src/
+```sh
+$ cd /home/workspace/catkin_ws/src/
+$ git clone https://github.com/Vamshi2198/Go-Chase-it-
+```
+#### Build the `Go-Chase-It` project
+```sh
+$ cd /home/workspace/catkin_ws/ 
+$ catkin_make
+```
+#### After building the package, source your environment
+```sh
+$ cd /home/workspace/catkin_ws/
+$ source devel/setup.bash
+```
+#### Launch my_robot in Gazebo
+```sh
+$ roslaunch my_robot world.launch
+```
+#### Launch ball_chaser and process_image nodes in another terminal
+```sh
+$ cd /home/workspace/catkin_ws/
+source devel/setup.bash
+roslaunch ball_chaser ball_chaser.launch
+```
+#### Visualize
+```sh
+cd /home/workspace/catkin_ws/
+source devel/setup.bash
+rosrun rqt_image_view rqt_image_view
+```
