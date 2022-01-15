@@ -11,7 +11,7 @@
      <img src="https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png">
   </a>
   <a href="https://husarion.com/manuals/rosbot/">
-     <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/husarion.jpg" width = "75">
+     <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/husarion.jpg" height = "70" width = "100">
   </a>
   <a href="https://aws.amazon.com/robomaker/">
      <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/aws.png" width = "75">
