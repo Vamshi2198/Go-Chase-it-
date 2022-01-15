@@ -4,7 +4,7 @@
   <br>
 </h1>
   
-<h4 align="center">A mobile robot that chases black colored balls</h4>
+<h2 align="center">A mobile robot that chases black colored balls</h2>
   
 <p align="center">
   <a href="https://www.udacity.com/robotics">
