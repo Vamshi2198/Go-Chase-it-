@@ -26,6 +26,14 @@
   <a href="#testing">Testing</a>
 </p>
 
+## Overview  
+This project is a part of Udacity's Robotics Software Engineer Nanodegree Program. In this project, I used [ROSbot](https://github.com/husarion/rosbot_description) as a mobile robot and [aws-robomaker-bookstore-world](https://github.com/aws-robotics/aws-robomaker-bookstore-world) as a gazebo world to replicate realistic simulation. ROSbot had a hard time following white colored balls due to the brightness present inside the bookstore-world. So, I designed black colored ball in gazebo to enable ROSbot to chase it. There are two C++ nodes required to program ROSbot to follow black colored balls.
+
+1. `drive_bot`:  
+* This node provides a `ball_chaser/command_robot` service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.
+
+2. `process_image`:
+* This node reads the robot’s camera image, analyzes it to determine the presence and position of a black ball. If a black ball exists in the image, this node requests a service via a client to drive the robot towards it.  
 
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0.
