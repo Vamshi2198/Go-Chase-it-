@@ -1,6 +1,4 @@
-# Go-Chase-it-
-This project is a part of Udacity's Robotics Software Engineer Nano degree program. It uses gazebo to model a robot and Robot operating system (ROS) to control the robot to follow a white ball
-
+![](images/Project_title.jpg)
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0.
 * ROS Kinetic .
