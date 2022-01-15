@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
- <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project_title.png">
+ <img src="https://github.com/Vamshi2198/Go-Chase-it-/blob/main/src/images/Project-title.png">
   <br>
 </h1>
   
@@ -22,7 +22,7 @@
   <a href="#overview">Overview</a> •
   <a href="#prerequisites">Prerequisites</a> •
   <a href="#directory-structure">Directory Structure</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#how-to-launch">How To Launch</a> •
   <a href="#testing">Testing</a>
 </p>
 
