@@ -138,4 +138,4 @@ The code was tested on the following specifications
 - **Graphics:** `Nvidia GeForce GTX 1650 Ti 4GB GDDR6`
 - **OS:** ` Ubuntu 20.04.3 LTS`
 - **Kernal:** `5.10.60.1-microsoft-standard-WSL2`
-- **ROS:** `noetic'
+- **ROS:** `noetic`
