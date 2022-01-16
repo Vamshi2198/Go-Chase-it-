@@ -30,6 +30,6 @@
 
   <!--launch rviz-->
   <node name="rviz" pkg="rviz" type="rviz" respawn="false"
-        args="-d $(find my_robot)/default.rviz"/>
+        args="-d $(find my_robot)/Go-chase-it.rviz"/>
         
 </launch>
