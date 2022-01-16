@@ -139,7 +139,7 @@ rosrun rqt_image_view rqt_image_view
 
 ## Testing
 Move the ball using the translate mode in gazebo. you should see the ROSbot follow the ball if it is in the region of the camera.
-The code was tested on the following specifications
+The code was tested on the following specifications:
 - **Processor:** `Intel Core i7-10875H`
 - **Graphics:** `Nvidia GeForce GTX 1650 Ti 4GB GDDR6`
 - **OS:** ` Ubuntu 20.04.3 LTS`
