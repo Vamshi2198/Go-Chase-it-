@@ -11,7 +11,7 @@ bool handle_drive_request(ball_chaser::DriveToTarget::Request& req, ball_chaser:
     auto linear_x = (float)req.linear_x;
     auto angular_z = (float)req.angular_z;
 
-    ROS_INFO("DriveToTargetRequest received - linear_x:%1.2f, angular_z:%1.2f", linear_x, angular_z);
+    ROS_INFO("DriveToTargetRequest received - linear_x:%0.02f, angular_z:%0.02f", linear_x, angular_z);
 
     // Pusblish motor command request
     geometry_msgs::Twist motor_command;

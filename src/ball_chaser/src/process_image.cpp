@@ -24,7 +24,7 @@ void drive_robot(float lin_x, float ang_z)
 void process_image_callback(const sensor_msgs::Image img)
 {
 
-    int black_pixel = 0;
+    int red_pixel = 255;
     bool is_ball_found = false;
     int pixel_region = 0;
 
@@ -33,7 +33,7 @@ void process_image_callback(const sensor_msgs::Image img)
     // Depending on the white ball position, call the drive_bot function and pass velocities to it
     for (int i = 0; i < img.height * img.step; i += 3)
     {
-        if ((img.data[i] == black_pixel) && (img.data[i + 1] == black_pixel) && (img.data[i + 2] == black_pixel))
+        if ((img.data[i] == red_pixel) && (img.data[i + 1] == 0) && (img.data[i + 2] == 0))
         {
             pixel_region = i % img.step;
 
