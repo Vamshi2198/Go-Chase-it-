@@ -4,7 +4,7 @@
   <br>
 </h1>
   
-<h2 align="center">A mobile robot that chases black colored balls</h2>
+<h2 align="center">A mobile robot that chases red colored balls</h2>
   
 <p align="center">
   <a href="https://www.udacity.com/robotics">
@@ -33,7 +33,7 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 * This node provides a `ball_chaser/command_robot` service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.
 
 2. `process_image`:
-* This node reads the robot’s camera image, analyzes it to determine the presence and position of a black ball. If a black ball exists in the image, this node requests a service via a client to drive the robot towards it.  
+* This node reads the robot’s camera image, analyzes it to determine the presence and position of a red ball. If a red ball exists in the image, this node requests a service via a client to drive the robot towards it.  
 
 ## Prerequisites
 * Gazebo >= 7.0.
@@ -85,6 +85,7 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 │   │   │   ├── worlds                         # world folder for world files
 │   │   │   │   ├── empty.world
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
+│   │   │   ├── Go-chase-it.rviz               # rviz configuration
 │   │   │   ├── package.xml                    # package info
 ```
 
