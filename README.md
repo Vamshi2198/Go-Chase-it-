@@ -39,8 +39,14 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 ## Prerequisites
 * Gazebo >= 7.0.
 * ROS Kinetic .
-* Cmake >= 4.1(mac, linux), 3.81(Windows)
+* make >= 4.1(mac, linux), 3.81(Windows)
+  * Linux: make is installed by default on most Linux distros
+  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
+  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * gcc/g++ >= 5.4
+  * Linux: gcc / g++ is installed by default on most Linux distros
+  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
+  * Windows: recommend using [MinGW](http://www.mingw.org/)
 * Git
 * you can click [here](https://s3-us-west-1.amazonaws.com/udacity-robotics/Virtual+Machines/Lubuntu_071917/RoboVM_V2.1.0.zip) to download the virtual machine with all dependencies included. 
 * you will need [7-zip](http://www.7-zip.org/download.html) to extract the image and [VMware](http://www.vmware.com/) to run the virtual machine.
