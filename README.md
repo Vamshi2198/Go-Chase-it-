@@ -102,7 +102,7 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 ```sh
 $ cd /home/workspace/catkin_ws/src/
 $ git clone https://github.com/Vamshi2198/Go-Chase-it-
-$ source /opt/ros/(ros-distro)/setup.bash
+$ source /opt/ros/${ROS_DISTRO}/setup.bash
 ```
 #### Note : The world file proivided is empy because it only contains the url of remote repository, for this purpose you need to clone the aws-bookstore-world and place it inside your src folder. Also, delete the folder named aws-robomaker-bookstore-world manually before cloning.
 ```sh
