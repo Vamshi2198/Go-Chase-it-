@@ -38,7 +38,7 @@ This project is a part of Udacity's Robotics Software Engineer Nanodegree Progra
 
 ## Prerequisites
 * Gazebo >= 7.0.
-* ROS Kinetic .
+* ROS >= Kinetic .
 * make >= 4.1(mac, linux), 3.81(Windows)
   * Linux: make is installed by default on most Linux distros
   * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
